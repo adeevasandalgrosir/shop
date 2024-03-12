@@ -1,0 +1,53 @@
+* {
+    font-family: "Roboto Condensed", "Roboto", "Anta Family", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+  }
+  body {
+    background: #ddd; 
+    display: flex;
+    justify-content: center;
+  }
+.utama {
+    width: 40%;
+    height: 100%;
+    margin-top: 130px;
+    background: rgba(0, 0, 70,1);
+    padding: 30px 30px;
+    box-shadow: 3px 3px 2px  rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+
+}
+.utama .kepala {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.utama .kepala h3 {
+    font-family: Lobster;
+    color: yellow;
+}
+.utama .medsos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.utama .medsos a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.utama .medsos a:hover {
+    color: rgba(0, 153, 255, 1);
+    transition: 0.5s ease-in-out;
+
+}
+@media (max-width: 768px) {
+    .utama {
+        width: 80%;
+    }
+}
